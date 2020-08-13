@@ -1,0 +1,4 @@
+PROCESSED on Wed, 06 Feb 2019 12:38:28 +0000
+/wp-content/plugins/slideshow-jquery-image-gallery/style/SlideshowPlugin/functional.css
+/wp-content/plugins/slideshow-jquery-image-gallery/css/style-light.css
+PROCESSED from https://whatasthmais.com/

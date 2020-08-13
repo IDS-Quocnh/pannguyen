@@ -1,0 +1,3 @@
+PROCESSED on Wed, 06 Feb 2019 18:26:26 +0000
+/wp-content/plugins/jetpack/css/jetpack.css
+PROCESSED from https://whatasthmais.com/action-plan-for-asthma/embed/

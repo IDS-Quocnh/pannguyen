@@ -1,0 +1,10 @@
+PROCESSED on Wed, 06 Feb 2019 13:45:15 +0000
+/wp-includes/css/dist/block-library/style.min.css
+/wp-content/plugins/contact-form-7/includes/css/styles.css
+/wp-content/plugins/cool-tag-cloud/inc/cool-tag-cloud.css
+/wp-content/plugins/wordpress-popular-posts/public/css/wpp.css
+/wp-content/plugins/wp-pagenavi/pagenavi-css.css
+/wp-content/plugins/jetpack/modules/likes/style.css
+/wp-content/plugins/add-to-any/addtoany.min.css
+/wp-content/plugins/jetpack/css/jetpack.css
+PROCESSED from https://whatasthmais.com/wp-content/plugins/bwp-minify/min/?f=wp-content%2Fplugins%2Fmailchimp%2Fcss%2Fflick%2Fflick.css%2Cwp-content%2Fplugins%2Fcontact-form-7%2Fincludes%2Fcss%2Fstyles.css%2Cwp-content%2Fplugins%2Fcool-tag-cloud%2Finc%2Fcool-tag-cloud.css%2Cwp-content%2Fplugins%2Fwordpress-popular-posts%2Fpublic%2Fcss%2Fwpp.css%2Cwp-content%2Fplugins%2Fwp-pagenavi%2Fpagenavi-css.css%2Cwp-content%2Fplugins%2Fjetpack%2Fmodules%2Flikes%2Fstyle.css%2Cwp-content%2Fplugins%2Fjetpack%2Fmodules%2Fwidgets%2Feu-cookie-law%2Fstyle.css%2Cwp-content%2Fplugins%2Fjetpack%2Fmodules%2Fwidgets%2Fsocial-icons%2Fsocial-icons.css%2Cwp-content%2Fplugins%2Fupprev%2Fstyles%2Fupprev.css%2Cwp-content%2Fplugins%2Fadd-to-any%2Faddtoany.min.css%2Cwp-content%2Fplugins%2Fjetpack%2Fcss%2Fjetpack.css

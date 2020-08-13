@@ -1,0 +1,12 @@
+PROCESSED on Wed, 06 Feb 2019 14:23:43 +0000
+/wp-content/plugins/wptouch/themes/foundation/default/style.css
+/wp-includes/css/dist/block-library/style.min.css
+/wp-content/plugins/contact-form-7/includes/css/styles.css
+/wp-content/plugins/cool-tag-cloud/inc/cool-tag-cloud.css
+/wp-content/plugins/wordpress-popular-posts/public/css/wpp.css
+/wp-content/plugins/wp-pagenavi/pagenavi-css.css
+/wp-content/plugins/wptouch/themes/bauhaus/default/style.css
+/wp-content/plugins/jetpack/modules/likes/style.css
+/wp-content/plugins/add-to-any/addtoany.min.css
+/wp-content/plugins/jetpack/css/jetpack.css
+PROCESSED from https://whatasthmais.com/asthma-101-mastering-the-basic-procedure-of-nebulization-by-edter/

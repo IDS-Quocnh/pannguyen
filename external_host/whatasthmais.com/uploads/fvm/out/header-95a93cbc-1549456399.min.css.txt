@@ -1,0 +1,12 @@
+PROCESSED on Mon, 18 Feb 2019 04:59:13 +0000
+/wp-includes/css/dashicons.min.css
+/wp-includes/css/admin-bar.min.css
+/wp-includes/css/dist/block-library/style.min.css
+/wp-content/plugins/contact-form-7/includes/css/styles.css
+/wp-content/plugins/cool-tag-cloud/inc/cool-tag-cloud.css
+/wp-content/plugins/wordpress-popular-posts/public/css/wpp.css
+/wp-content/plugins/wp-pagenavi/pagenavi-css.css
+/wp-content/plugins/jetpack/modules/likes/style.css
+/wp-content/plugins/add-to-any/addtoany.min.css
+/wp-content/plugins/jetpack/css/jetpack.css
+PROCESSED from https://whatasthmais.com/wp-content/plugins/facebook-members/css/images/ui-bg_glass_75_e6e6e6_1x400.png
