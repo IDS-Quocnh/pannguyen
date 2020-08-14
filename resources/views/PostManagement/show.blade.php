@@ -71,7 +71,7 @@
         </button>
       </div>
       <div class="modal-body" style="padding-top: 0px">
-      	<iframe id="showImageFrame" src="http://www.pannguyen.com/storage/app/upload_me/0.JPG" style="width: 100%; height:100%; overflow: hidden;" frameBorder="0"></iframe>
+      	<iframe id="showImageFrame" src="http://www.pannguyen.com/storage/app/upload_me/0.JPG" style="width: 1800px; height:100%; overflow: hidden;" frameBorder="0"></iframe>
       </div>
     </div>
   </div>
@@ -106,6 +106,8 @@
 		keepRefresh = true;
 		$('#showImageFrame').attr("src", $(this).attr("src"));
 		$('#btnClickImage').trigger('click');
+		setTimeout(function(){$('#showImageFrame').contents().find('img').css("max-width", "1770px"); }, 200);
+		
 	});
 	
 	$(".post-content img").css("cursor", "pointer");
