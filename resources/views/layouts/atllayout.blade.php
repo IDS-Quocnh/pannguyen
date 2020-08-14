@@ -549,6 +549,10 @@
                 window.history.replaceState( null, null, window.location.href );
             }
             $('.modal').on('hidden.bs.modal', function () {
+				if(keepRefresh == true){
+					keepRefresh = false;
+					return;
+				}
         		location.reload();
         	});
         </script>
