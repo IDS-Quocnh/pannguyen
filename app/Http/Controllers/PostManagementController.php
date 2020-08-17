@@ -141,7 +141,8 @@ class PostManagementController extends Controller
         $content = $temp;
         $parts = explode('"', $content);
         foreach($parts as $str){
-            if (strpos($str, 'storage') == false && strpos($str, 'app') == false && (strpos($str, '.jpg') !== false || strpos($str, '.png') !== false || strpos($str, '.gif') !== false)) {
+            if (strpos($str, 'storage') == false && strpos($str, 'app') && strpos($str, 'duck.png') == false && strpos($str, 'url(') == false && (strpos($str, '.jpg') !== false || strpos($str, '.png') !== false || strpos($str, '.gif') !== false)) {
+		
                 $part1s = explode(' ', $str);
                 $str = $part1s[0];
                 $contents = file_get_contents($str);

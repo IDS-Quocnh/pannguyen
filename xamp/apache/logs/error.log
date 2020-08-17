@@ -1,0 +1,52 @@
+[Mon Aug 17 09:05:16.347004 2020] [ssl:warn] [pid 6484:tid 612] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Mon Aug 17 09:05:16.378918 2020] [ssl:warn] [pid 6484:tid 612] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Mon Aug 17 09:05:16.404849 2020] [mpm_winnt:notice] [pid 6484:tid 612] AH00455: Apache/2.4.43 (Win64) OpenSSL/1.1.1g PHP/7.2.32 configured -- resuming normal operations
+[Mon Aug 17 09:05:16.404849 2020] [mpm_winnt:notice] [pid 6484:tid 612] AH00456: Apache Lounge VC15 Server built: Apr 22 2020 11:11:00
+[Mon Aug 17 09:05:16.404849 2020] [core:notice] [pid 6484:tid 612] AH00094: Command line: 'c:\\pannguyen\\xamp\\apache\\bin\\httpd.exe -d C:/pannguyen/xamp/apache'
+[Mon Aug 17 09:05:16.410835 2020] [mpm_winnt:notice] [pid 6484:tid 612] AH00418: Parent: Created child process 26416
+[Mon Aug 17 09:05:16.757238 2020] [ssl:warn] [pid 26416:tid 544] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Mon Aug 17 09:05:16.789151 2020] [ssl:warn] [pid 26416:tid 544] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Mon Aug 17 09:05:16.809098 2020] [mpm_winnt:notice] [pid 26416:tid 544] AH00354: Child: Starting 150 worker threads.
+[Mon Aug 17 09:06:16.823601 2020] [ssl:warn] [pid 23676:tid 608] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Mon Aug 17 09:06:16.851527 2020] [core:warn] [pid 23676:tid 608] AH00098: pid file C:/pannguyen/xamp/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Mon Aug 17 09:06:16.853522 2020] [ssl:warn] [pid 23676:tid 608] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Mon Aug 17 09:06:16.873468 2020] [mpm_winnt:notice] [pid 23676:tid 608] AH00455: Apache/2.4.43 (Win64) OpenSSL/1.1.1g PHP/7.2.32 configured -- resuming normal operations
+[Mon Aug 17 09:06:16.873468 2020] [mpm_winnt:notice] [pid 23676:tid 608] AH00456: Apache Lounge VC15 Server built: Apr 22 2020 11:11:00
+[Mon Aug 17 09:06:16.873468 2020] [core:notice] [pid 23676:tid 608] AH00094: Command line: 'c:\\pannguyen\\xamp\\apache\\bin\\httpd.exe -d C:/pannguyen/xamp/apache'
+[Mon Aug 17 09:06:16.878456 2020] [mpm_winnt:notice] [pid 23676:tid 608] AH00418: Parent: Created child process 19276
+[Mon Aug 17 09:06:17.229516 2020] [ssl:warn] [pid 19276:tid 172] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Mon Aug 17 09:06:17.259436 2020] [ssl:warn] [pid 19276:tid 172] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Mon Aug 17 09:06:17.281377 2020] [mpm_winnt:notice] [pid 19276:tid 172] AH00354: Child: Starting 150 worker threads.
+[Mon Aug 17 10:18:07.096777 2020] [php7:warn] [pid 19276:tid 1860] [client 127.0.0.1:58023] PHP Warning:  POST Content-Length of 267855167 bytes exceeds the limit of 41943040 bytes in Unknown on line 0, referer: http://www.pannguyen.com/upload-image
+[Mon Aug 17 10:20:00.800380 2020] [ssl:warn] [pid 6724:tid 596] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Mon Aug 17 10:20:00.831297 2020] [core:warn] [pid 6724:tid 596] AH00098: pid file C:/pannguyen/xamp/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Mon Aug 17 10:20:00.833292 2020] [ssl:warn] [pid 6724:tid 596] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Mon Aug 17 10:20:00.868199 2020] [mpm_winnt:notice] [pid 6724:tid 596] AH00455: Apache/2.4.43 (Win64) OpenSSL/1.1.1g PHP/7.2.32 configured -- resuming normal operations
+[Mon Aug 17 10:20:00.868199 2020] [mpm_winnt:notice] [pid 6724:tid 596] AH00456: Apache Lounge VC15 Server built: Apr 22 2020 11:11:00
+[Mon Aug 17 10:20:00.868199 2020] [core:notice] [pid 6724:tid 596] AH00094: Command line: 'c:\\pannguyen\\xamp\\apache\\bin\\httpd.exe -d C:/pannguyen/xamp/apache'
+[Mon Aug 17 10:20:00.875180 2020] [mpm_winnt:notice] [pid 6724:tid 596] AH00418: Parent: Created child process 12560
+[Mon Aug 17 10:20:01.324977 2020] [ssl:warn] [pid 12560:tid 660] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Mon Aug 17 10:20:01.356891 2020] [ssl:warn] [pid 12560:tid 660] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Mon Aug 17 10:20:01.377836 2020] [mpm_winnt:notice] [pid 12560:tid 660] AH00354: Child: Starting 150 worker threads.
+[Mon Aug 17 10:20:06.697595 2020] [php7:warn] [pid 12560:tid 1900] [client 127.0.0.1:58090] PHP Warning:  POST Content-Length of 267855167 bytes exceeds the limit of 41943040 bytes in Unknown on line 0, referer: http://www.pannguyen.com/upload-image
+[Mon Aug 17 10:20:13.862075 2020] [php7:warn] [pid 12560:tid 1884] [client 127.0.0.1:58098] PHP Warning:  POST Content-Length of 267855167 bytes exceeds the limit of 41943040 bytes in Unknown on line 0, referer: http://www.pannguyen.com/upload-image
+[Mon Aug 17 10:20:56.464777 2020] [ssl:warn] [pid 26884:tid 612] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Mon Aug 17 10:20:56.495695 2020] [core:warn] [pid 26884:tid 612] AH00098: pid file C:/pannguyen/xamp/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Mon Aug 17 10:20:56.497689 2020] [ssl:warn] [pid 26884:tid 612] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Mon Aug 17 10:20:56.517659 2020] [mpm_winnt:notice] [pid 26884:tid 612] AH00455: Apache/2.4.43 (Win64) OpenSSL/1.1.1g PHP/7.2.32 configured -- resuming normal operations
+[Mon Aug 17 10:20:56.517659 2020] [mpm_winnt:notice] [pid 26884:tid 612] AH00456: Apache Lounge VC15 Server built: Apr 22 2020 11:11:00
+[Mon Aug 17 10:20:56.517659 2020] [core:notice] [pid 26884:tid 612] AH00094: Command line: 'c:\\pannguyen\\xamp\\apache\\bin\\httpd.exe -d C:/pannguyen/xamp/apache'
+[Mon Aug 17 10:20:56.523620 2020] [mpm_winnt:notice] [pid 26884:tid 612] AH00418: Parent: Created child process 25520
+[Mon Aug 17 10:20:56.878671 2020] [ssl:warn] [pid 25520:tid 640] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Mon Aug 17 10:20:56.908591 2020] [ssl:warn] [pid 25520:tid 640] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Mon Aug 17 10:20:56.932526 2020] [mpm_winnt:notice] [pid 25520:tid 640] AH00354: Child: Starting 150 worker threads.
+[Mon Aug 17 16:10:38.780264 2020] [ssl:warn] [pid 4684:tid 628] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Mon Aug 17 16:10:38.811179 2020] [core:warn] [pid 4684:tid 628] AH00098: pid file C:/pannguyen/xamp/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Mon Aug 17 16:10:38.813171 2020] [ssl:warn] [pid 4684:tid 628] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Mon Aug 17 16:10:38.997730 2020] [mpm_winnt:notice] [pid 4684:tid 628] AH00455: Apache/2.4.43 (Win64) OpenSSL/1.1.1g PHP/7.2.32 configured -- resuming normal operations
+[Mon Aug 17 16:10:38.997730 2020] [mpm_winnt:notice] [pid 4684:tid 628] AH00456: Apache Lounge VC15 Server built: Apr 22 2020 11:11:00
+[Mon Aug 17 16:10:38.997730 2020] [core:notice] [pid 4684:tid 628] AH00094: Command line: 'c:\\pannguyen\\xamp\\apache\\bin\\httpd.exe -d C:/pannguyen/xamp/apache'
+[Mon Aug 17 16:10:39.003713 2020] [mpm_winnt:notice] [pid 4684:tid 628] AH00418: Parent: Created child process 18172
+[Mon Aug 17 16:10:39.367003 2020] [ssl:warn] [pid 18172:tid 620] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Mon Aug 17 16:10:39.397806 2020] [ssl:warn] [pid 18172:tid 620] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Mon Aug 17 16:10:39.418750 2020] [mpm_winnt:notice] [pid 18172:tid 620] AH00354: Child: Starting 150 worker threads.
