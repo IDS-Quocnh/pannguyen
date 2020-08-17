@@ -51,3 +51,14 @@
 [Mon Aug 17 16:10:39.397806 2020] [ssl:warn] [pid 18172:tid 620] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
 [Mon Aug 17 16:10:39.418750 2020] [mpm_winnt:notice] [pid 18172:tid 620] AH00354: Child: Starting 150 worker threads.
 [Mon Aug 17 16:27:51.443240 2020] [mpm_winnt:crit] [pid 18172:tid 620] AH02538: Child: Parent process exited abruptly. Child process is ending
+[Mon Aug 17 16:28:31.638199 2020] [ssl:warn] [pid 5244:tid 628] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Mon Aug 17 16:28:31.669116 2020] [core:warn] [pid 5244:tid 628] AH00098: pid file C:/pannguyen/xamp/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Mon Aug 17 16:28:31.671111 2020] [ssl:warn] [pid 5244:tid 628] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Mon Aug 17 16:28:31.690061 2020] [mpm_winnt:notice] [pid 5244:tid 628] AH00455: Apache/2.4.43 (Win64) OpenSSL/1.1.1g PHP/7.2.32 configured -- resuming normal operations
+[Mon Aug 17 16:28:31.690061 2020] [mpm_winnt:notice] [pid 5244:tid 628] AH00456: Apache Lounge VC15 Server built: Apr 22 2020 11:11:00
+[Mon Aug 17 16:28:31.690061 2020] [core:notice] [pid 5244:tid 628] AH00094: Command line: 'c:\\pannguyen\\xamp\\apache\\bin\\httpd.exe -d C:/pannguyen/xamp/apache'
+[Mon Aug 17 16:28:31.695047 2020] [mpm_winnt:notice] [pid 5244:tid 628] AH00418: Parent: Created child process 24792
+[Mon Aug 17 16:28:32.061068 2020] [ssl:warn] [pid 24792:tid 620] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Mon Aug 17 16:28:32.094368 2020] [ssl:warn] [pid 24792:tid 620] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Mon Aug 17 16:28:32.114346 2020] [mpm_winnt:notice] [pid 24792:tid 620] AH00354: Child: Starting 150 worker threads.
+[Mon Aug 17 16:35:34.792671 2020] [mpm_winnt:crit] [pid 24792:tid 620] AH02538: Child: Parent process exited abruptly. Child process is ending
