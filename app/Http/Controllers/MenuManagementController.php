@@ -69,7 +69,7 @@ class MenuManagementController extends Controller
 
             $item = new Menu;
             $item->setAttributeMap($request->all());
-            $item->oder_number = Menu::max("order_number") + 1;
+            $item->order_number = Menu::max("order_number") + 1;
             $item->save();
             return view('MenuManagement.main')->with('susscessMessage', 'Add menu successfully');
         } else {
