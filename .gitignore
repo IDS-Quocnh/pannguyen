@@ -1,0 +1,6 @@
+/xamp/tmp/
+/xamp/mysql/data/ib_logfile0
+/xamp/mysql/data/ibtmp1
+/xamp/mysql/data/mysql.pid
+/xamp/mysql/data/mysql_error.log
+/xamp/apache/

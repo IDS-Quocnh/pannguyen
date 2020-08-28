@@ -62,3 +62,32 @@
 [Mon Aug 17 16:28:32.094368 2020] [ssl:warn] [pid 24792:tid 620] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
 [Mon Aug 17 16:28:32.114346 2020] [mpm_winnt:notice] [pid 24792:tid 620] AH00354: Child: Starting 150 worker threads.
 [Mon Aug 17 16:35:34.792671 2020] [mpm_winnt:crit] [pid 24792:tid 620] AH02538: Child: Parent process exited abruptly. Child process is ending
+[Fri Aug 28 13:12:38.633583 2020] [ssl:warn] [pid 23720:tid 576] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Fri Aug 28 13:12:38.670506 2020] [core:warn] [pid 23720:tid 576] AH00098: pid file C:/pannguyen/xamp/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Fri Aug 28 13:12:38.671481 2020] [ssl:warn] [pid 23720:tid 576] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Fri Aug 28 13:12:38.920813 2020] [mpm_winnt:notice] [pid 23720:tid 576] AH00455: Apache/2.4.43 (Win64) OpenSSL/1.1.1g PHP/7.2.32 configured -- resuming normal operations
+[Fri Aug 28 13:12:38.920813 2020] [mpm_winnt:notice] [pid 23720:tid 576] AH00456: Apache Lounge VC15 Server built: Apr 22 2020 11:11:00
+[Fri Aug 28 13:12:38.920813 2020] [core:notice] [pid 23720:tid 576] AH00094: Command line: 'c:\\pannguyen\\xamp\\apache\\bin\\httpd.exe -d C:/pannguyen/xamp/apache'
+[Fri Aug 28 13:12:38.928793 2020] [mpm_winnt:notice] [pid 23720:tid 576] AH00418: Parent: Created child process 26056
+[Fri Aug 28 13:12:39.358672 2020] [ssl:warn] [pid 26056:tid 556] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Fri Aug 28 13:12:39.391554 2020] [ssl:warn] [pid 26056:tid 556] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Fri Aug 28 13:12:39.414493 2020] [mpm_winnt:notice] [pid 26056:tid 556] AH00354: Child: Starting 150 worker threads.
+
+VirtualAlloc() failed: [0x000005af] The paging file is too small for this operation to complete.
+
+
+VirtualAlloc() failed: [0x000005af] The paging file is too small for this operation to complete.
+
+[Fri Aug 28 13:13:25.911013 2020] [php7:error] [pid 26056:tid 1880] [client 127.0.0.1:62769] PHP Fatal error:  Out of memory (allocated 4194304) (tried to allocate 12288 bytes) in C:\\pannguyen\\vendor\\symfony\\http-foundation\\ResponseHeaderBag.php on line 156, referer: http://www.pannguyen.com/login
+
+VirtualAlloc() failed: [0x000005af] The paging file is too small for this operation to complete.
+
+
+VirtualAlloc() failed: [0x000005af] The paging file is too small for this operation to complete.
+
+[Fri Aug 28 13:13:25.941924 2020] [php7:error] [pid 26056:tid 1900] [client 127.0.0.1:62763] PHP Fatal error:  Out of memory (allocated 8388608) (tried to allocate 8192 bytes) in C:\\pannguyen\\vendor\\symfony\\http-foundation\\ResponseHeaderBag.php on line 293, referer: http://www.pannguyen.com/login
+
+VirtualAlloc() failed: [0x000005af] The paging file is too small for this operation to complete.
+
+[Fri Aug 28 13:13:25.942920 2020] [php7:error] [pid 26056:tid 1900] [client 127.0.0.1:62763] PHP Fatal error:  Out of memory (allocated 8388608) (tried to allocate 32768 bytes) in C:\\pannguyen\\vendor\\symfony\\debug\\Exception\\FatalErrorException.php on line 1, referer: http://www.pannguyen.com/login
+[Fri Aug 28 13:13:26.031682 2020] [php7:error] [pid 26056:tid 1880] [client 127.0.0.1:62769] PHP Fatal error:  Uncaught Error: Class 'Symfony\\Component\\HttpFoundation\\ResponseHeaderBag' not found in C:\\pannguyen\\vendor\\symfony\\http-foundation\\Response.php:205\nStack trace:\n#0 C:\\pannguyen\\vendor\\symfony\\http-foundation\\Response.php(227): Symfony\\Component\\HttpFoundation\\Response->__construct('<!DOCTYPE html>...', 500, Array)\n#1 C:\\pannguyen\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Exceptions\\Handler.php(320): Symfony\\Component\\HttpFoundation\\Response::create('<!DOCTYPE html>...', 500, Array)\n#2 C:\\pannguyen\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Exceptions\\Handler.php(286): Illuminate\\Foundation\\Exceptions\\Handler->convertExceptionToResponse(Object(Symfony\\Component\\Debug\\Exception\\FatalErrorException))\n#3 C:\\pannguyen\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Exceptions\\Handler.php(187): Illuminate\\Foundation\\Exceptions\\Handler->prepareResponse(Object(Illuminate\\Http\\Request), Object(Symfony\\Component\\Debug\\Exception\\FatalErrorException))\n#4 C:\\pannguyen\\app\\Exceptions\\Handler.php(51): I in C:\\pannguyen\\vendor\\symfony\\http-foundation\\Response.php on line 205, referer: http://www.pannguyen.com/login
